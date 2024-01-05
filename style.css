@@ -65,6 +65,12 @@
 }
 @media (max-width: 1024px) {
   .main .main__products {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .main .main__products {
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }

@@ -73,6 +73,10 @@
         gap: 1rem;
         margin-bottom: 90px;
         @media (max-width: 1024px){
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items:center;
+        }
+        @media (max-width: 768px){
             grid-template-columns: 1fr 1fr ;
             align-items:center;
         }
